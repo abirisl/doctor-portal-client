@@ -1,10 +1,17 @@
 import React from 'react';
 
-const Services = () => {
+const Services = ({ img,cardTitle }) => {
     return (
-        <div className='mt-12'>
-            <h4 className='uppercase text-secondary font-bold text-3xl text-center'>Our Servicees</h4>
-            <h3 className='text-4xl text-center mt-3'>Services We Provides</h3>
+        <div className='my-10'>
+            <div class="card w-96 bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                    <img src={img} alt="dental" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title">{cardTitle}</h2>
+                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                </div>
+            </div>
         </div>
     );
 };
