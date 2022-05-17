@@ -6,10 +6,10 @@ import Info from './Info';
 
 const InfoCard = () => {
     return (
-        <div className='grid grid-cols-1 lg:grid-cols-3 gap-4'>
-            <Info cardTitle='Opening Hours' img={clock}></Info>
-            <Info cardTitle='Our Locations' img={location}></Info>
-            <Info cardTitle='Contact Us' img={call}></Info>
+        <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 px-12 mt-7'>
+            <Info cardTitle='Opening Hours' bgClass='bg-gradient-to-r from-secondary to-neutral' img={clock}></Info>
+            <Info cardTitle='Our Locations' bgClass='bg-accent' img={location}></Info>
+            <Info cardTitle='Contact Us' bgClass='bg-gradient-to-r from-secondary to-neutral' img={call}></Info>
         </div>
     );
 };
