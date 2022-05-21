@@ -26,7 +26,7 @@ const Footer = () => {
                 <Link to='/' className="link link-hover">Cookie policy</Link>
             </div>
            </div>
-            <footer class="footer footer-center py-16">
+            <footer className="footer footer-center py-16">
                 <div>
                     <p>Copyright © 2022 - All right reserved by MH Company</p>
                 </div>
